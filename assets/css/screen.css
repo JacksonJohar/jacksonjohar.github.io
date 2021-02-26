@@ -110,6 +110,14 @@ nav {
    padding: .1em;
  }
 
+ a:visited{
+   color:white;
+ }
+
+ a:link{
+   color:white;
+ }
+
 body {
    display: grid;
    grid-template-columns: minmax(0.66666667em,1fr) minmax(min-content,45ch) minmax(0.66666667em,1fr)
