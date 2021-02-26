@@ -96,25 +96,19 @@ p {
 }
 
 nav {
-   margin-top: .5em;
+   display: flex;
+   justify-content: space-between;   /* horizontal alignment */
+   align-items: center;              /* vertical alignment */
+ }
+ 
+ /* non-essential decorative styles */
+ nav {
    border: .2em solid #979697;
    padding: .1em;
-   list-style-type: none;
-   margin-left: 0;
-   margin-right: 0;
-   margin-bottom: 0;
-   overflow: hidden;
-   overflow-wrap: normal;
-}
-
-nav a {
-   float: left;
-   display: block;
-   color: white;
-   text-align: center;
-   width: 25%;
-   text-decoration: none;
-}
+ }
+ a {
+   padding: .1em;
+ }
 
 body {
    display: grid;
