@@ -19,6 +19,7 @@ html {
 
 h1 {
    font-size: 1.7em;
+   padding-left: .01em;
 }
 
 header {
