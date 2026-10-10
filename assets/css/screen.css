@@ -19,6 +19,7 @@ html {
 
 h1 {
    font-size: 1.7em;
+   margin-left: .33em;
 }
 
 header {
@@ -51,7 +52,7 @@ p {
    padding: .2em;
 }
 
-#Experience2 {
+#OtherExperience {
    border: .33em solid #979697;
    margin-bottom: .33em;
    padding: .2em;
